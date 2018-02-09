@@ -1,0 +1,15 @@
+{
+  "name": "adapt-helperSP",
+  "homepage": "https://github.com/BATraining/CLeO-adapt",
+  "description": "Add helper icon for SP",
+  "main": "js/helperSP.js",
+  "license": "Bombardier all right reserved 2016",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
