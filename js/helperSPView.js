@@ -13,8 +13,10 @@ define(function(require) {
 
 		postRender: function() {
 			var template = Handlebars.templates[this.template];
-
-			$('.navigation .navigation-inner').append(template({displayHelper:true}));
+			
+			if ($('.navigation .navigation-inner .SP-help-icon').length == 0){
+				$('.navigation .navigation-inner').append(template({ displayHelper: true }));
+			}
 			$('.navigation-inner .SP-help-icon').on('click', this.openHelpPageSP);
 		},
 
